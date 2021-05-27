@@ -44,7 +44,7 @@ h6 {
   line-height: 1.2;
 }
 
-a { color: #3498db; }
+a { color: #13544C; }
 
 a:hover,
 a:focus {
@@ -108,16 +108,16 @@ li {
 
 .action-btn .btn-default {
   color: #FFFFFF;
-  background-color: #3498db;
-  border-color: #3498db;
+  background-color: #13544C;
+  border-color: #13544C;
   display: block;
 }
 
 .action-btn .btn-default:hover,
 .action-btn .btn-default:focus,
 .action-btn .btn-default:active {
-  background-color: #2980b9;
-  border-color: #2980b9;
+  background-color: #086A5E;
+  border-color: #086A5E;
 }
 
 .action-btn a:first-child { margin: 0 0 0.75em 0; }
@@ -137,8 +137,8 @@ li {
 }
 
 .main .social li a:hover {
-  background: #3498db;
-  border: 1px solid #3498db;
+  background: #13544C;
+  border: 1px solid #13544C;
 }
 
 /* ==========================================================================
@@ -152,17 +152,18 @@ li {
   color: #fff;
   padding: .75em 2em;
   transition: all .5s linear;
-  border: 1px solid #3498db;
+  border: 1px solid #13544C;
 }
 
 .navbar-default .navbar-nav > li > a.btn-default:hover {
   color: #fff;
   background: transperent;
-  border: 1px solid #3498db;
+  border: 1px solid #13544C;
 }
 
 .navbar-default .navbar-nav > li > a.btn-default:hover,
-.navbar-default .navbar-nav > li > a.btn-default:focus { color: #3498db; }
+.navbar-default .navbar-nav > li > a.btn-default:focus { color: #13544C
+; }
 
 .stick {
   display: block;
@@ -309,8 +310,8 @@ transform:translateY(0);
   border-radius: 30px;
   padding: 1em 3em;
   color: #fff;
-  background-color: #3498db;
-  border-color: #3498db;
+  background-color: #13544C;
+  border-color: #13544C;
   font-weight: 700;
   -webkit-transition: all .5s ease-out;
   transition: all .5s ease-out;
@@ -507,7 +508,7 @@ ul.countdown li p {
 }
 
 .modal-header {
-  background: #3498db;
+  background: #13544C;
   position: relative;
   min-height: 0;
   padding: 1.5em 1em;
@@ -519,7 +520,7 @@ ul.countdown li p {
 }
 
 button.close {
-  color: #3498db;
+  color: #13544C;
   opacity: 1;
   background: white;
   width: 35px;
@@ -558,18 +559,18 @@ button.close {
   width: 45px;
   height: 45px;
   line-height: 45px;
-  color: #3498db;
+  color: #13544C;
   border-radius: 50%;
   position: relative;
   -webkit-transition: all .8s ease;
   transition: all .8s ease;
-  border: 1px solid #3498db;
+  border: 1px solid #13544C;
   font-size: 1.3em;
 }
 
 .social li a:hover {
   color: #fff;
-  background: #3498db;
+  background: #13544C;
 }
 
 /* ==========================================================================
@@ -594,7 +595,7 @@ button.close {
   transition: background .5s ease-in;
 }
 
-.scroll-top a:hover { background: #3498db; }
+.scroll-top a:hover { background: #13544C; }
 
 /* ==========================================================================
    13.Small devices (tablets, 768px and up)
