@@ -322,8 +322,8 @@ transform:translateY(0);
 .btn-default:focus,
 .btn-default:active {
   color: #fff;
-  background-color: #2980b9;
-  border-color: #2980b9;
+  background-color: #086A5E;
+  border-color: #086A5E;
 }
 
 .btn:active:focus,
