@@ -93,14 +93,14 @@ li {
 }
 
 .main h1 {
-  font-size: 36px;
+  font-size: 30px;
   text-transform: uppercase;
 }
 
 .main h1,
-.main h2 { font-weight: 300; }
+.main h2 { font-weight: 200; }
 
-.main h1 span { font-weight: 400; }
+.main h1 span { font-weight: 500; }
 
 .welcome-message { padding-top: 1.5em; }
 
@@ -607,9 +607,9 @@ button.close {
 
 .welcome-message { padding-top: 2.25em; }
 
-.main h1 { font-size: 60px; }
+.main h1 { font-size: 50px; }
 
-.main h2 { font-size: 48px; }
+.main h2 { font-size: 30px; }
 
 .action-btn .btn-default { display: inline-block; }
 
