@@ -145,7 +145,7 @@
     <section class="features section-spacing" id="features">
       <div class="container">
         <header class="text-center">
-          <h2>Shack</h2>
+          <h2><span>Shack</span></h2>
           <h3>
             The house hunting process doesn't have to be stressful! <br />
             Save money and time by connecting directly to sellers
@@ -512,7 +512,13 @@
 
             <!--social end-->
 
-            <small>&copy; Copyright Shack 2021. All Rights Reserved.</small>
+            <small
+              >&copy; Copyright Shack
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              All Rights Reserved.</small
+            >
             <p>
               <a href="" data-toggle="modal" data-target="#privacy">Privacy</a>
               |
