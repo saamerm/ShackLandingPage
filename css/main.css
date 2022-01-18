@@ -1,4 +1,3 @@
-
 /* ==========================================================================
    Tabel Of Contents
    ========================================================================== 
@@ -18,21 +17,21 @@
    14.Medium devices (desktops, 992px and up)
    15.small devices
 */
-   
-   
+
 /* ==========================================================================
    1.General
    ========================================================================== */
 
-
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   overflow-x: hidden;
   font-size: 16px;
 }
 
-p { color: #888; }
+p {
+  color: #888;
+}
 
 h1,
 h2,
@@ -44,7 +43,9 @@ h6 {
   line-height: 1.2;
 }
 
-a { color: #13544C; }
+a {
+  color: #15544c;
+}
 
 a:hover,
 a:focus {
@@ -52,7 +53,9 @@ a:focus {
   text-decoration: none;
 }
 
-a:focus { outline: none; }
+a:focus {
+  outline: none;
+}
 
 img {
   max-width: 100%;
@@ -69,7 +72,7 @@ li {
 /* ==========================================================================
    2.main
    ========================================================================== */
-   
+
 .main {
   background: url(../img/bg.jpg) center center no-repeat scroll;
   background-size: cover;
@@ -79,10 +82,12 @@ li {
   text-align: center;
 }
 
-.overlay { display: none; }
+.overlay {
+  display: none;
+}
 
 .main:before {
-  content: '';
+  content: "";
   background: rgba(0, 0, 0, 0.31);
   position: absolute;
   width: 100%;
@@ -98,29 +103,39 @@ li {
 }
 
 .main h1,
-.main h2 { font-weight: 200; }
+.main h2 {
+  font-weight: 200;
+}
 
-.main h1 span { font-weight: 500; }
+.main h1 span {
+  font-weight: 500;
+}
 
-.welcome-message { padding-top: 1.5em; }
+.welcome-message {
+  padding-top: 1.5em;
+}
 
-.action-btn { margin: 1.5em 0 3em; }
+.action-btn {
+  margin: 1.5em 0 3em;
+}
 
 .action-btn .btn-default {
-  color: #FFFFFF;
-  background-color: #13544C;
-  border-color: #13544C;
+  color: #ffffff;
+  background-color: #15544c;
+  border-color: #15544c;
   display: block;
 }
 
 .action-btn .btn-default:hover,
 .action-btn .btn-default:focus,
 .action-btn .btn-default:active {
-  background-color: #086A5E;
-  border-color: #086A5E;
+  background-color: #086a5e;
+  border-color: #086a5e;
 }
 
-.action-btn a:first-child { margin: 0 0 0.75em 0; }
+.action-btn a:first-child {
+  margin: 0 0 0.75em 0;
+}
 
 .main .social {
   margin-top: 2.25em;
@@ -128,42 +143,45 @@ li {
 }
 
 .main .social li a {
-  color: #FFFFFF;
+  color: #ffffff;
   width: 40px;
   height: 40px;
   line-height: 40px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   font-size: 1em;
 }
 
 .main .social li a:hover {
-  background: #13544C;
-  border: 1px solid #13544C;
+  background: #15544c;
+  border: 1px solid #15544c;
 }
 
 /* ==========================================================================
    nav
    ========================================================================== */
-   
-.navbar { display: none; }
+
+.navbar {
+  display: none;
+}
 
 .navbar-default .navbar-nav > li > a.btn-default {
   text-transform: capitalize;
   color: #fff;
-  padding: .75em 2em;
-  transition: all .5s linear;
-  border: 1px solid #13544C;
+  padding: 0.75em 2em;
+  transition: all 0.5s linear;
+  border: 1px solid #15544c;
 }
 
 .navbar-default .navbar-nav > li > a.btn-default:hover {
   color: #fff;
   background: transperent;
-  border: 1px solid #13544C;
+  border: 1px solid #15544c;
 }
 
 .navbar-default .navbar-nav > li > a.btn-default:hover,
-.navbar-default .navbar-nav > li > a.btn-default:focus { color: #13544C
-; }
+.navbar-default .navbar-nav > li > a.btn-default:focus {
+  color: #15544c;
+}
 
 .stick {
   display: block;
@@ -177,37 +195,37 @@ li {
   -webkit-animation: fadeInDown 1s both;
   animation: fadeInDown 1s both;
 }
- @-webkit-keyframes fadeInDown {
-0% {
-opacity:0;
--webkit-transform:translateY(-20px);
-transform:translateY(-20px);
-}
-100% {
-opacity:1;
--webkit-transform:translateY(0);
-transform:translateY(0);
-}
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
 @keyframes fadeInDown {
-0% {
-opacity:0;
--webkit-transform:translateY(-20px);
--ms-transform:translateY(-20px);
-transform:translateY(-20px);
-}
-100% {
-opacity:1;
--webkit-transform:translateY(0);
--ms-transform:translateY(0);
-transform:translateY(0);
-}
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
 
 /* ==========================================================================
    3.video
    ========================================================================== */
-   
+
 .embed-responsive {
   border-radius: 2px;
   border: 1px solid #000;
@@ -216,12 +234,16 @@ transform:translateY(0);
 /* ==========================================================================
    4.Features
    ========================================================================== */
-   
-.section-spacing { padding: 4.5em 0; }
+
+.section-spacing {
+  padding: 4.5em 0;
+}
 
 .section-spacing header h2,
 .section-spacing header h3,
-.features h4 { margin-top: 0; }
+.features h4 {
+  margin-top: 0;
+}
 
 .section-spacing h2 {
   color: #333;
@@ -234,9 +256,13 @@ transform:translateY(0);
   font-size: 20px;
 }
 
-.features .row { margin: 4.5em 0; }
+.features .row {
+  margin: 4.5em 0;
+}
 
-.features .row:last-child { margin-bottom: 0; }
+.features .row:last-child {
+  margin-bottom: 0;
+}
 
 .features article {
   margin-top: 3em;
@@ -250,31 +276,33 @@ transform:translateY(0);
 
 .features p {
   font-size: 17px;
-  color: #B2B2B2;
+  color: #b2b2b2;
 }
-
 
 /* ==========================================================================
    5.Subscription form 
    ========================================================================== */
 
-   
- .form-control::-webkit-input-placeholder {
- color: #C1C1C1;
+.form-control::-webkit-input-placeholder {
+  color: #c1c1c1;
 }
- .form-control:-moz-placeholder {
- color: #C1C1C1;
+.form-control:-moz-placeholder {
+  color: #c1c1c1;
 }
- .form-control::-moz-placeholder {
- color: #C1C1C1;
+.form-control::-moz-placeholder {
+  color: #c1c1c1;
 }
- .form-control:-ms-input-placeholder {
- color: #C1C1C1;
+.form-control:-ms-input-placeholder {
+  color: #c1c1c1;
 }
 
-.center-block { float: none; }
+.center-block {
+  float: none;
+}
 
-.sub-form header { margin-bottom: 2.625em; }
+.sub-form header {
+  margin-bottom: 2.625em;
+}
 
 .sub-form .form-control {
   padding: 1em 2em;
@@ -283,7 +311,9 @@ transform:translateY(0);
   box-shadow: none;
 }
 
-.sub-form .btn-default { padding: 1em 5em; }
+.sub-form .btn-default {
+  padding: 1em 5em;
+}
 
 .sub-form .form-control,
 .sub-form .btn-default {
@@ -293,7 +323,7 @@ transform:translateY(0);
 
 .form-control {
   background-color: #fff;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   height: auto;
   padding: 0.75em 2em;
   border-radius: 7px;
@@ -301,20 +331,20 @@ transform:translateY(0);
 }
 
 .form-control:focus {
-  border-color: #E5E5E5;
+  border-color: #e5e5e5;
   outline: 0;
-  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 
 .btn-default {
   border-radius: 30px;
   padding: 1em 3em;
   color: #fff;
-  background-color: #13544C;
-  border-color: #13544C;
+  background-color: #15544c;
+  border-color: #15544c;
   font-weight: 700;
-  -webkit-transition: all .5s ease-out;
-  transition: all .5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
   text-transform: uppercase;
 }
 
@@ -322,14 +352,16 @@ transform:translateY(0);
 .btn-default:focus,
 .btn-default:active {
   color: #fff;
-  background-color: #086A5E;
-  border-color: #086A5E;
+  background-color: #086a5e;
+  border-color: #086a5e;
 }
 
 .btn:active:focus,
 .btn-default:focus,
 .btn:focus,
-.btn-default:active { outline: none; }
+.btn-default:active {
+  outline: none;
+}
 
 #mc-notification {
   margin: 1.5em 0 0;
@@ -337,7 +369,9 @@ transform:translateY(0);
 }
 
 #mc-notification .alert,
-#mc-notification .success { display: none; }
+#mc-notification .success {
+  display: none;
+}
 
 .success,
 .alert,
@@ -358,7 +392,7 @@ transform:translateY(0);
 
 .alert,
 .error-cf p {
-  background: #FFE5E5;
+  background: #ffe5e5;
   color: #ea5050;
   border: 1px solid rgba(169, 82, 82, 0.18);
 }
@@ -366,7 +400,9 @@ transform:translateY(0);
 .success i,
 .alert i,
 .success-cf i,
-.error-cf i { padding-right: .5em; }
+.error-cf i {
+  padding-right: 0.5em;
+}
 
 /* ==========================================================================
    6.Countdown styles
@@ -378,9 +414,13 @@ ul.countdown {
   padding: 0 0 3em;
 }
 
-ul.countdown li { display: inline-block; }
+ul.countdown li {
+  display: inline-block;
+}
 
-ul.countdown li span { font-size: 36px; }
+ul.countdown li span {
+  font-size: 36px;
+}
 
 ul.countdown li.seperator {
   font-size: 30px;
@@ -424,40 +464,50 @@ ul.countdown li p {
   font-size: 3em;
 }
 
-.tweet { font-size: 18px; }
+.tweet {
+  font-size: 18px;
+}
 
 /* ==========================================================================
    8.Contact
    ========================================================================== */
- 
+
 .video header,
 .screenshot header,
-.contact header { margin-bottom: 3em; }
+.contact header {
+  margin-bottom: 3em;
+}
 
 .contact-form .form-control {
   border-color: #ddd;
-  margin-bottom: .75em;
+  margin-bottom: 0.75em;
   padding: 1em;
   margin-bottom: 1.5em;
   box-shadow: none;
 }
 
-.contact .btn-default { width: 100%; }
+.contact .btn-default {
+  width: 100%;
+}
 
 /* ==========================================================================
    9.contact Form Validation
    ========================================================================== */
- 
+
 .contact-form label.error {
   margin-bottom: 1.5em;
   font-weight: 600;
   color: #ea5050;
 }
 
-.contact-form label.error i { padding-right: 8px; }
+.contact-form label.error i {
+  padding-right: 8px;
+}
 
 .success-cf,
-.error-cf { display: none; }
+.error-cf {
+  display: none;
+}
 
 .contact-form .success-cf p,
 .contact-form .error-cf p {
@@ -473,54 +523,60 @@ ul.countdown li p {
 }
 
 .contact-form .form-control.error {
-  border-color: #E7BEBE;
-  color: #D95C5C;
+  border-color: #e7bebe;
+  color: #d95c5c;
   border-left: none;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
-  box-shadow: .3em 0 0 0 #D95C5C inset;
-  margin-bottom: .75em;
+  box-shadow: 0.3em 0 0 0 #d95c5c inset;
+  margin-bottom: 0.75em;
 }
 
 .contact-form .form-control.error:focus {
   border-color: #ff5050;
   color: #ff5050;
-  box-shadow: .3em 0 0 0 #FF5050 inset;
+  box-shadow: 0.3em 0 0 0 #ff5050 inset;
 }
 
-.contact-form .valid { border-color: #2ecc71; }
+.contact-form .valid {
+  border-color: #2ecc71;
+}
 
 /* ==========================================================================
    10.footer
    ========================================================================== */
-   
+
 .site-footer,
 .video,
- .sub-form { background: #F7F7F7; }
+.sub-form {
+  background: #f7f7f7;
+}
 
-.site-footer.section-spacing { padding: 4.5em 0; }
+.site-footer.section-spacing {
+  padding: 4.5em 0;
+}
 
 .site-footer small {
-  color: #B3B3B3;
+  color: #b3b3b3;
   font-size: 1em;
-  margin: 1.5em 0 .75em;
+  margin: 1.5em 0 0.75em;
   display: inline-block;
 }
 
 .modal-header {
-  background: #13544C;
+  background: #15544c;
   position: relative;
   min-height: 0;
   padding: 1.5em 1em;
 }
 
 .modal-title {
-  color: #FFF;
+  color: #fff;
   font-weight: 700;
 }
 
 button.close {
-  color: #13544C;
+  color: #15544c;
   opacity: 1;
   background: white;
   width: 35px;
@@ -540,44 +596,49 @@ button.close {
   outline: none;
 }
 
-.modal-body { padding: 1.5em; }
+.modal-body {
+  padding: 1.5em;
+}
 
 /* ==========================================================================
    11.Social 
    ========================================================================== */
 
-
 .social li {
   display: inline-block;
-  padding-right: .8em;
+  padding-right: 0.8em;
 }
 
-.social li:last-child { padding-right: 0; }
+.social li:last-child {
+  padding-right: 0;
+}
 
 .social li a {
   display: block;
   width: 45px;
   height: 45px;
   line-height: 45px;
-  color: #13544C;
+  color: #15544c;
   border-radius: 50%;
   position: relative;
-  -webkit-transition: all .8s ease;
-  transition: all .8s ease;
-  border: 1px solid #13544C;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  border: 1px solid #15544c;
   font-size: 1.3em;
 }
 
 .social li a:hover {
   color: #fff;
-  background: #13544C;
+  background: #15544c;
 }
 
 /* ==========================================================================
    12.scroll top
    ========================================================================== */
-   
-.scroll-top { margin-bottom: 0; }
+
+.scroll-top {
+  margin-bottom: 0;
+}
 
 .scroll-top a {
   position: fixed;
@@ -587,151 +648,178 @@ button.close {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.3);
   font-size: 12px;
-  padding: .8em 1em;
+  padding: 0.8em 1em;
   display: none;
   z-index: 200;
   border-radius: 50%;
-  -webkit-transition: background .5s ease-in;
-  transition: background .5s ease-in;
+  -webkit-transition: background 0.5s ease-in;
+  transition: background 0.5s ease-in;
 }
 
-.scroll-top a:hover { background: #13544C; }
+.scroll-top a:hover {
+  background: #15544c;
+}
 
 /* ==========================================================================
    13.Small devices (tablets, 768px and up)
    ========================================================================== */
-   
+
 @media (min-width: 768px) {
+  .main {
+    padding: 3em 0 4.5em;
+  }
 
-.main { padding: 3em 0 4.5em; }
+  .welcome-message {
+    padding-top: 2.25em;
+  }
 
-.welcome-message { padding-top: 2.25em; }
+  .main h1 {
+    font-size: 50px;
+  }
 
-.main h1 { font-size: 50px; }
+  .main h2 {
+    font-size: 30px;
+  }
 
-.main h2 { font-size: 30px; }
+  .action-btn .btn-default {
+    display: inline-block;
+  }
 
-.action-btn .btn-default { display: inline-block; }
+  .action-btn a:first-child {
+    margin: 0 1.5em 0 0;
+  }
 
-.action-btn a:first-child { margin: 0 1.5em 0 0; }
+  ul.countdown li span {
+    font-size: 48px;
+  }
 
-ul.countdown li span { font-size: 48px; }
+  ul.countdown li.seperator {
+    font-size: 36px;
+    line-height: 68px;
+    padding: 0 20px;
+  }
 
-ul.countdown li.seperator {
-  font-size: 36px;
-  line-height: 68px;
-  padding: 0 20px;
-}
-
-ul.countdown li p { font-size: 20px; }
+  ul.countdown li p {
+    font-size: 20px;
+  }
 }
 
 /* ==========================================================================
    14.Medium devices (desktops, 992px and up) 
    ========================================================================== */
-   
+
 @media (min-width: 992px) {
+  html,
+  body {
+    height: 100%;
+  }
 
-html,
-body { height: 100%; }
+  .main {
+    padding: 4.5em 0 6em;
+    text-align: left;
+    background: url(../img/bg.jpg) center center no-repeat fixed;
+    background-size: cover;
+    min-height: 100%;
+  }
 
-.main {
-  padding: 4.5em 0 6em;
-  text-align: left;
-  background: url(../img/bg.jpg) center center no-repeat fixed;
-  background-size: cover;
-  min-height: 100%;
-}
+  .overlay {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: url(../img/bg-blurred.jpg) center center no-repeat fixed;
+    background-size: cover;
+    opacity: 0;
+  }
 
-.overlay {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  background: url(../img/bg-blurred.jpg) center center no-repeat fixed;
-  background-size: cover;
-  opacity: 0;
-}
+  .overlay:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.31);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
 
-.overlay:before {
-  content: '';
-  background: rgba(0, 0, 0, 0.31);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-}
+  .main .social {
+    margin-top: 0;
+    float: right;
+  }
 
-.main .social {
-  margin-top: 0;
-  float: right;
-}
+  .hero-img {
+    margin-top: 1.5em;
+  }
 
-.hero-img { margin-top: 1.5em; }
+  .welcome-message {
+    padding-top: 6.75em;
+  }
 
-.welcome-message { padding-top: 6.75em; }
+  .action-btn {
+    margin: 1.5em 0 0;
+  }
 
-.action-btn { margin: 1.5em 0 0; }
+  .section-spacing {
+    padding: 6em 0;
+  }
 
-.section-spacing { padding: 6em 0; }
+  .features article {
+    margin-top: 10.5em;
+    text-align: inherit;
+  }
 
-.features article {
-  margin-top: 10.5em;
-  text-align: inherit;
-}
+  .sub-form .form-control {
+    width: 50%;
+    margin-bottom: 0;
+    display: inline-block;
+  }
 
-.sub-form .form-control {
-  width: 50%;
-  margin-bottom: 0;
-  display: inline-block;
-}
+  .sub-form .btn-default {
+    width: auto;
+    display: inline-block;
+  }
 
-.sub-form .btn-default {
-  width: auto;
-  display: inline-block;
-}
+  #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: 9999;
+    height: 100%;
+  }
 
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #fff;
-  z-index: 9999;
-  height: 100%;
-}
-
-#status {
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  background: url(../img/load.gif) no-repeat center center;
-  margin: -170px 0 0 -100px;
-}
+  #status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: url(../img/load.gif) no-repeat center center;
+    margin: -170px 0 0 -100px;
+  }
 }
 
 /* ==========================================================================
    16.small devices 
    ========================================================================== */
-   
-
 
 @media (max-width: 320px) {
+  ul.countdown li span {
+    font-size: 28.833px;
+  }
 
-ul.countdown li span { font-size: 28.833px; }
+  ul.countdown li.seperator {
+    font-size: 25.629px;
+    line-height: 38.439px;
+    vertical-align: top;
+    padding: 0 2px;
+  }
 
-ul.countdown li.seperator {
-  font-size: 25.629px;
-  line-height: 38.439px;
-  vertical-align: top;
-  padding: 0 2px;
-}
-
-ul.countdown li p { font-size: 12.642px; }
+  ul.countdown li p {
+    font-size: 12.642px;
+  }
 }
